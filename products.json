@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Тональний крем Maybelline Fit Me",
+        "manufacturer": "Maybelline",
+        "price": 320,
+        "type": "Тональний крем"
+    },
+    {
+        "id": 2,
+        "name": "Губна помада L'Oreal Paris Color Riche",
+        "manufacturer": "L'Oreal Paris",
+        "price": 250,
+        "type": "Губна помада"
+    },
+    {
+        "id": 3,
+        "name": "Туш для вій Max Factor 2000 Calorie",
+        "manufacturer": "Max Factor",
+        "price": 280,
+        "type": "Туш для вій"
+    },
+    {
+        "id": 4,
+        "name": "Парфуми Chanel No.5",
+        "manufacturer": "Chanel",
+        "price": 4500,
+        "type": "Парфуми"
+    },
+    {
+        "id": 5,
+        "name": "Зволожуючий крем Nivea Soft",
+        "manufacturer": "Nivea",
+        "price": 180,
+        "type": "Крем для обличчя"
+    }
+]
