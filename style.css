@@ -69,3 +69,10 @@ main {
     cursor: pointer;
     border-radius: 5px;
 }
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}

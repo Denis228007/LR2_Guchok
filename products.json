@@ -4,34 +4,47 @@
         "name": "Тональний крем Maybelline Fit Me",
         "manufacturer": "Maybelline",
         "price": 320,
-        "type": "Тональний крем"
+        "type": "Тональний крем",
+        "image": "https://myriam.com.ua/content/images/2/536x536l50nn0/tonalnyy-krem-super-match-24h-foundation-pt475--5-51306610468743.jpg"
     },
     {
         "id": 2,
         "name": "Губна помада L'Oreal Paris Color Riche",
         "manufacturer": "L'Oreal Paris",
         "price": 250,
-        "type": "Губна помада"
+        "type": "Губна помада",
+        "image": "https://bone.ua/images/product_images/popup_images/48863_0.jpg"
     },
     {
         "id": 3,
         "name": "Туш для вій Max Factor 2000 Calorie",
         "manufacturer": "Max Factor",
         "price": 280,
-        "type": "Туш для вій"
+        "type": "Туш для вій",
+        "image": "https://eveline.ua/cdn/shop/files/6781d7c52c73a5.33806056.jpg?v=1736562640"
     },
     {
         "id": 4,
         "name": "Парфуми Chanel No.5",
         "manufacturer": "Chanel",
         "price": 4500,
-        "type": "Парфуми"
+        "type": "Парфуми",
+        "image": "https://parfbar.com.ua/image/cache/766a9c1f70dc5b82ae91e8301c75c011-1785-800x800.jpg"
     },
     {
         "id": 5,
         "name": "Зволожуючий крем Nivea Soft",
         "manufacturer": "Nivea",
         "price": 180,
-        "type": "Крем для обличчя"
+        "type": "Крем для обличчя",
+        "image": "https://pwa-api.eva.ua/img/0/0/resize/4/2/425933_1_1711702261.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Тональний крем",
+        "manufacturer": "ОПАПА",
+        "price": 240,
+        "type": "ТИРИ ПИРИ МИ РИ",
+        "image": "https://pwa-api.eva.ua/img/0/0/resize/4/2/425933_1_1711702261.jpg"
     }
 ]
