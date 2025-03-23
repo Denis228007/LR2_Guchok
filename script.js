@@ -30,6 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p>Виробник: ${product.manufacturer}</p>
                 <p>Ціна: ${product.price} грн</p>
                 <button onclick="addToCart(${product.id})">Додати в кошик</button>
+                <button class="details-button" onclick="showDetails(${product.id})">Детальніше</button>
+                <div class="product-details" id="product-details-${product.id}" style="display: none;">
+                    <p>Опис: ${product.description || "Опис відсутній"}</p>
+                    <p>Категорія: ${product.type}</p>
+                </div>
             `;
             productsContainer.appendChild(productElement);
         });
@@ -80,8 +85,12 @@ document.addEventListener("DOMContentLoaded", () => {
         renderProducts(filteredProducts);
     });
 
-
     cartButton.addEventListener("click", () => {
         cart.style.display = cart.style.display === "block" ? "none" : "block";
     });
+
+    window.showDetails = function (productId) {
+        const details = document.getElementById(`product-details-${productId}`);
+        details.style.display = details.style.display === "none" ? "block" : "none";
+    };
 });

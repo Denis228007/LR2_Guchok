@@ -40,6 +40,13 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .product button {
@@ -49,6 +56,12 @@ main {
     padding: 8px;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.product button:hover {
+    background-color: #ff3385;
 }
 
 #cart {
@@ -61,14 +74,24 @@ main {
     border-left: 2px solid #ddd;
 }
 
-#cart button {
-    background-color: #ff4444;
-    color: white;
+#cart-button {
+    background-color: #eb296a;  
+    color: #fff;                
     border: none;
-    padding: 5px;
+    padding: 12px 25px;         
+    font-size: 18px;           
+    border-radius: 8px;         
     cursor: pointer;
-    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
+
+#cart-button:hover {
+    background-color: #ff3385;  
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
 .product img {
     width: 100%;
     height: auto;
@@ -76,3 +99,27 @@ main {
     margin-bottom: 15px;
     object-fit: cover;
 }
+.product-details {
+    display: none;  
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+.details-button {
+    background-color: #66cc66;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.details-button:hover {
+    background-color: #55b455;
+}
+

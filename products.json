@@ -5,7 +5,8 @@
         "manufacturer": "Maybelline",
         "price": 320,
         "type": "Тональний крем",
-        "image": "https://myriam.com.ua/content/images/2/536x536l50nn0/tonalnyy-krem-super-match-24h-foundation-pt475--5-51306610468743.jpg"
+        "image": "https://myriam.com.ua/content/images/2/536x536l50nn0/tonalnyy-krem-super-match-24h-foundation-pt475--5-51306610468743.jpg",
+        "description": "Легкий тональний крем, який підлаштовується під тон шкіри."
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "manufacturer": "L'Oreal Paris",
         "price": 250,
         "type": "Губна помада",
-        "image": "https://bone.ua/images/product_images/popup_images/48863_0.jpg"
+        "image": "https://bone.ua/images/product_images/popup_images/48863_0.jpg",
+        "description": "Насичений колір і довготривале покриття."
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "manufacturer": "Max Factor",
         "price": 280,
         "type": "Туш для вій",
-        "image": "https://eveline.ua/cdn/shop/files/6781d7c52c73a5.33806056.jpg?v=1736562640"
+        "image": "https://eveline.ua/cdn/shop/files/6781d7c52c73a5.33806056.jpg?v=1736562640",
+        "description": "Об'ємна туш для виразного погляду."
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "manufacturer": "Chanel",
         "price": 4500,
         "type": "Парфуми",
-        "image": "https://parfbar.com.ua/image/cache/766a9c1f70dc5b82ae91e8301c75c011-1785-800x800.jpg"
+        "image": "https://parfbar.com.ua/image/cache/766a9c1f70dc5b82ae91e8301c75c011-1785-800x800.jpg",
+        "description": "Легендарний аромат від Chanel."
     },
     {
         "id": 5,
@@ -37,14 +41,16 @@
         "manufacturer": "Nivea",
         "price": 180,
         "type": "Крем для обличчя",
-        "image": "https://pwa-api.eva.ua/img/0/0/resize/4/2/425933_1_1711702261.jpg"
+        "image": "https://pwa-api.eva.ua/img/0/0/resize/4/2/425933_1_1711702261.jpg",
+        "description": "Легка текстура для інтенсивного зволоження."
     },
     {
         "id": 6,
-        "name": "Тональний крем",
-        "manufacturer": "ОПАПА",
-        "price": 240,
-        "type": "ТИРИ ПИРИ МИ РИ",
-        "image": "https://pwa-api.eva.ua/img/0/0/resize/4/2/425933_1_1711702261.jpg"
+        "name": "Тональний крем Tiri piri miri",
+        "manufacturer": "Maybelline",
+        "price": 320,
+        "type": "Тональний крем",
+        "image": "https://laserhousecosmetics.com.ua/content/images/8/536x536l50nn0/matiruushiy-tonalnyy-krem-maria-galland-814-velvet-skincare-foundation-10-beige-clair-30-ml-79715852473807.jpg",
+        "description": "Матуючий тональний крем для ідеального покриття."
     }
 ]
